@@ -31,8 +31,8 @@ function App() {
   }
 
   return (
-    <div className="container mx-auto py-12 max-w-xl space-y-6">
-      <div className="sm:flex space-y-6 sm:space-y-0 sm:space-x-6 px-6 justify-center items-center">
+    <div className="container mx-auto py-6 max-w-xl space-y-6 px-6">
+      <div className="sm:flex space-y-6 sm:space-y-0 sm:space-x-6 justify-center items-center">
         <img className="rounded-xl sm:w-52" src={dye} alt="Daniel Ye" />
         <div className="flex flex-col space-y-6 text-left">
           <h1 className="font-semibold text-3xl">👋 Hello, I'm Daniel Ye</h1>
@@ -44,6 +44,20 @@ function App() {
             create something great together!
           </p>
         </div>
+      </div>
+      <div className="font-light text-xl space-y-4">
+        <h2 className="rounded-xl bg-neutral-100 hover:bg-neutral-200 dark:bg-gray-600 dark:hover:bg-gray-500 p-2 cursor-pointer border">
+          <a href="">🚀 Projects</a>
+        </h2>
+        <h2 className="rounded-xl bg-neutral-100 hover:bg-neutral-200 dark:bg-gray-600 dark:hover:bg-gray-500 p-2 cursor-pointer border">
+          <a href="">📄 Resume</a>
+        </h2>
+        <h2 className="rounded-xl bg-neutral-100 hover:bg-neutral-200 dark:bg-gray-600 dark:hover:bg-gray-500 p-2 cursor-pointer border">
+          <a href="">👨‍💻 Blog</a>
+        </h2>
+        <h2 className="rounded-xl bg-neutral-100 hover:bg-neutral-200 dark:bg-gray-600 dark:hover:bg-gray-500 p-2 cursor-pointer border">
+          <a href="mailto:daniel.ye@live.com">🤙 Contact Me</a>
+        </h2>
       </div>
       <div className="flex justify-center items-center gap-6">
         <Twitter></Twitter>
