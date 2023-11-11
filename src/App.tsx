@@ -91,9 +91,7 @@ function App() {
             >
               {darkMode ? <Dark></Dark> : <Light></Light>}
             </button>
-            <p className="text-neutral-500 dark:text-neutral-300">
-              © Daniel Ye
-            </p>
+            <p className="text-neutral-400">© Daniel Ye</p>
           </div>
         </div>
       </div>
